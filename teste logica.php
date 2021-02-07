@@ -1,5 +1,5 @@
 <?php
-//Criar um algoritimo para ver quantas vezes a pessoa vai ter que treinar para atingiro peso desejado,
+//Criar um algoritimo para ver quantas vezes a pessoa vai ter que treinar para atingir o peso desejado,
 //se ela tiver menos que 28 anos, sera necessario uma vez para perder 2kg, se mais, apenas 1kg
 
 /*
@@ -60,8 +60,7 @@ while($pessoa1->peso > $pessoa1->peso_desejado)
 {
 	$pessoa1->idadePeso();
 	$cont += 1;
-	$vezes = $cont;
 }
-echo "<hr>No padrão de classes voçe ira malhar $vezes vezes<br>";
+echo "<hr>No padrão de classes voçe ira malhar $cont vezes<br>";
 
 ?>
