@@ -21,7 +21,7 @@ for($i = 0; $peso > $peso_desejo; $i++){ //com o while o $i teria que ser defini
 }
 echo "No final ira ter malhado $i para alcançar $peso_desejo kg, com $idade anos.";
 
-//COM CLASSES E OBJETOS
+//COM CLASSES
 class FuncaoIdade 
 {
 //variaveis
@@ -63,4 +63,5 @@ while($pessoa1->peso > $pessoa1->peso_desejado)
 	$vezes = $cont;
 }
 echo "<hr>No padrão de classes voçe ira malhar $vezes vezes<br>";
+
 ?>
